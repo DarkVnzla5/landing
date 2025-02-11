@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+@theme {
+  --color-primary:oklch(29.95% 0.0884 252.04);
+  --color-secondary:oklch(75.76% 0.159 55.93);
+  --color-tertiary:oklch(97.02% 0 0);
+  --font-radio-600:"Radio-Canada-Big", "Oswald";
+}
