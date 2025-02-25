@@ -1,15 +1,17 @@
 export default function Footer() {
   return (
-    <section className="p-4 text-secondary text-xl font-bold md:p-8 lg:p-10">
-      <div className="mx-auto max-w-screen-xl text-center">
+    <section className="p-4 border-t-secondary border-2 border-r-0 border-l-0 text-primary text-2xl font-bold max-md:p-8 max-lg:p-10">
+      <article className="mx-auto max-w-screen-xl text-center">
         <a
           href="#"
           className="flex justify-center items-center text-2xl font-semibold "
         >
           <img src="/truck-bi-logo-CbIBFuIy.svg" alt="Logo" />
         </a>
+      </article>
+      <article className="mx-auto max-w-screen-xl text-center" >
         <p className="my-6 text-center ">
-          Aplicacion Privada para el Manejo de Choferes <br /> Camiones de Carga
+          Aplicacion Privada para el Manejo de Choferes <br /> Y Camiones de Carga
           Pesada en Latinoamerica.
         </p>
         <ul className="flex flex-wrap justify-center items-center mb-6  ">
@@ -20,7 +22,7 @@ export default function Footer() {
           </li>
           <li>
             <a href="#" className="mr-4 hover:underline md:mr-6">
-              Premium
+              Planes de Servicios
             </a>
           </li>
           <li>
@@ -36,7 +38,7 @@ export default function Footer() {
           </a>
           . All Rights Reserved.
         </span>
-      </div>
+      </article>
     </section>
   );
 }

@@ -7,11 +7,12 @@ import Mobile from "./components/Mobile";
 
 function App() {
   return (
-    <body className="bg-white">
+    <body className="bg-white dark:bg-primary ">
       <Header />
       <Hero />
       <main className="flex">
         <Solver />
+        
         <Mobile />
       </main>
       <Footer />

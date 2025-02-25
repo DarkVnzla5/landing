@@ -7,3 +7,4 @@
   --color-tertiary:oklch(97.02% 0 0);
   --font-radio-600:"Radio-Canada-Big", "Oswald";
 }
+@custom-variant dark (&:where(.dark, .dark *));
